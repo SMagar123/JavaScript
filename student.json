@@ -1,0 +1,13 @@
+//JSON-->JavaScript Object Notation used to pass data in API
+[
+    {
+        "name":"Suraj",
+        "age":20,
+        "height":170
+    },
+    {
+        "name":"Suraj",
+        "age":20,
+        "height":150
+    }
+]

@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color changing buttons</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="change-my-color">Challenge 4:Change the colors of all buttons</h2>
+        <div class="pick-color">
+            <form action="">
+                <select name="back-drop" id="background" onchange="buttoncolorChange(this)">
+                <option value="random">Random</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="reset">Reset</option>
+                </select>
+            
+            </form>
+            <button class="btn btn-primary">Wee!</button>
+            <button class="btn btn-danger">yahoo!</button>
+            <button class="btn btn-warning">Hurry!</button>
+            <button class="btn btn-success">Awesome!</button>
+        </div>
+    </div>
+    <script src="color.js"></script>
+</body>
+</html>
